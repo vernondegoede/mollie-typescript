@@ -1,0 +1,33 @@
+speakeasyVersion: 1.422.1
+sources:
+    Mollie-OAS:
+        sourceNamespace: mollie-oas
+        sourceRevisionDigest: sha256:144f577da454650bc141a38702015efcce7dab94e5966fd9d1bd1c978085f445
+        sourceBlobDigest: sha256:0b5ebe57bb16c2f60a716c7992b6f04a1a4dd9a6629b9be9c9ddeec7b401d655
+        tags:
+            - latest
+targets:
+    mollie:
+        source: Mollie-OAS
+        sourceNamespace: mollie-oas
+        sourceRevisionDigest: sha256:144f577da454650bc141a38702015efcce7dab94e5966fd9d1bd1c978085f445
+        sourceBlobDigest: sha256:0b5ebe57bb16c2f60a716c7992b6f04a1a4dd9a6629b9be9c9ddeec7b401d655
+        codeSamplesNamespace: mollie-oas-code-samples
+        codeSamplesRevisionDigest: sha256:adec0629f588e6ef94dda2c2c28c1ee916eac500ecd1c91b7ef5b7e341a47c4c
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Mollie-OAS:
+            inputs:
+                - location: ../mol-public-api/v2/bundled-routes-payments.json
+            registry:
+                location: registry.speakeasyapi.dev/mollie/mollie/mollie-oas
+    targets:
+        mollie:
+            target: typescript
+            source: Mollie-OAS
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/mollie/mollie/mollie-oas-code-samples
+                blocking: false

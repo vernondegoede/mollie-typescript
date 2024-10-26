@@ -1,0 +1,16 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Mollie-OAS:
+        inputs:
+            - location: ../mol-public-api/v2/bundled-routes-payments.json
+        registry:
+            location: registry.speakeasyapi.dev/mollie/mollie/mollie-oas
+targets:
+    mollie:
+        target: typescript
+        source: Mollie-OAS
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/mollie/mollie/mollie-oas-code-samples
+            blocking: false

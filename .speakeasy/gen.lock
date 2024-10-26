@@ -1,0 +1,910 @@
+lockVersion: 2.0.0
+id: c1feb847-2aa0-48ab-b324-1ff2dfe3f0d4
+management:
+  docChecksum: b2a3f6466510489a91163f10922b9a68
+  docVersion: 1.0.0
+  speakeasyVersion: 1.422.1
+  generationVersion: 2.438.15
+  releaseVersion: 0.0.1
+  configChecksum: 03fc3277a799d784fddb0e3ae4408119
+features:
+  typescript:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.1.11
+    core: 3.18.2
+    defaultEnabledRetries: 0.1.0
+    devContainers: 2.90.0
+    envVarSecurityUsage: 0.1.1
+    globalSecurity: 2.82.11
+    globalSecurityCallbacks: 0.1.0
+    globalSecurityFlattening: 0.1.0
+    globalServerURLs: 2.82.4
+    inputOutputModels: 2.82.0
+    nullables: 0.1.0
+    responseFormat: 0.2.3
+    retries: 2.83.0
+    sdkHooks: 0.1.0
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .eslintrc.cjs
+  - .gitattributes
+  - .npmignore
+  - CONTRIBUTING.md
+  - FUNCTIONS.md
+  - RUNTIMES.md
+  - USAGE.md
+  - docs/lib/utils/retryconfig.md
+  - docs/models/components/security.md
+  - docs/models/errors/cancelpaymentdocumentation.md
+  - docs/models/errors/cancelpaymentlinks.md
+  - docs/models/errors/cancelpaymentpaymentsapidocumentation.md
+  - docs/models/errors/cancelpaymentpaymentsapilinks.md
+  - docs/models/errors/cancelpaymentpaymentsapiresponsebody.md
+  - docs/models/errors/cancelpaymentresponsebody.md
+  - docs/models/errors/cancelrefunddocumentation.md
+  - docs/models/errors/cancelrefundlinks.md
+  - docs/models/errors/cancelrefundresponsebody.md
+  - docs/models/errors/createcapturecapturesapidocumentation.md
+  - docs/models/errors/createcapturecapturesapilinks.md
+  - docs/models/errors/createcapturecapturesapiresponsebody.md
+  - docs/models/errors/createcapturedocumentation.md
+  - docs/models/errors/createcapturelinks.md
+  - docs/models/errors/createcaptureresponsebody.md
+  - docs/models/errors/createorderrefunddocumentation.md
+  - docs/models/errors/createorderrefundlinks.md
+  - docs/models/errors/createorderrefundrefundsapidocumentation.md
+  - docs/models/errors/createorderrefundrefundsapilinks.md
+  - docs/models/errors/createorderrefundrefundsapiresponsebody.md
+  - docs/models/errors/createorderrefundresponsebody.md
+  - docs/models/errors/createpaymentdocumentation.md
+  - docs/models/errors/createpaymentlinkdocumentation.md
+  - docs/models/errors/createpaymentlinklinks.md
+  - docs/models/errors/createpaymentlinkpaymentlinksapidocumentation.md
+  - docs/models/errors/createpaymentlinkpaymentlinksapilinks.md
+  - docs/models/errors/createpaymentlinkpaymentlinksapiresponsebody.md
+  - docs/models/errors/createpaymentlinkresponsebody.md
+  - docs/models/errors/createpaymentlinks.md
+  - docs/models/errors/createpaymentpaymentsapiresponsebody.md
+  - docs/models/errors/createpaymentresponsebody.md
+  - docs/models/errors/createrefunddocumentation.md
+  - docs/models/errors/createrefundlinks.md
+  - docs/models/errors/createrefundrefundsapidocumentation.md
+  - docs/models/errors/createrefundrefundsapilinks.md
+  - docs/models/errors/createrefundrefundsapiresponsebody.md
+  - docs/models/errors/createrefundrefundsapiresponsedocumentation.md
+  - docs/models/errors/createrefundrefundsapiresponselinks.md
+  - docs/models/errors/createrefundrefundsapiresponseresponsebody.md
+  - docs/models/errors/createrefundresponsebody.md
+  - docs/models/errors/disablemethoddocumentation.md
+  - docs/models/errors/disablemethodissuerdocumentation.md
+  - docs/models/errors/disablemethodissuerlinks.md
+  - docs/models/errors/disablemethodissuerresponsebody.md
+  - docs/models/errors/disablemethodlinks.md
+  - docs/models/errors/disablemethodresponsebody.md
+  - docs/models/errors/documentation.md
+  - docs/models/errors/enablemethoddocumentation.md
+  - docs/models/errors/enablemethodissuerdocumentation.md
+  - docs/models/errors/enablemethodissuerlinks.md
+  - docs/models/errors/enablemethodissuerresponsebody.md
+  - docs/models/errors/enablemethodlinks.md
+  - docs/models/errors/enablemethodresponsebody.md
+  - docs/models/errors/getcapturedocumentation.md
+  - docs/models/errors/getcapturelinks.md
+  - docs/models/errors/getcaptureresponsebody.md
+  - docs/models/errors/getchargebackdocumentation.md
+  - docs/models/errors/getchargebacklinks.md
+  - docs/models/errors/getchargebackresponsebody.md
+  - docs/models/errors/getmethoddocumentation.md
+  - docs/models/errors/getmethodlinks.md
+  - docs/models/errors/getmethodmethodsapidocumentation.md
+  - docs/models/errors/getmethodmethodsapilinks.md
+  - docs/models/errors/getmethodmethodsapiresponsebody.md
+  - docs/models/errors/getmethodresponsebody.md
+  - docs/models/errors/getpaymentdocumentation.md
+  - docs/models/errors/getpaymentlinkdocumentation.md
+  - docs/models/errors/getpaymentlinklinks.md
+  - docs/models/errors/getpaymentlinkresponsebody.md
+  - docs/models/errors/getpaymentlinks.md
+  - docs/models/errors/getpaymentresponsebody.md
+  - docs/models/errors/getrefunddocumentation.md
+  - docs/models/errors/getrefundlinks.md
+  - docs/models/errors/getrefundresponsebody.md
+  - docs/models/errors/getterminaldocumentation.md
+  - docs/models/errors/getterminallinks.md
+  - docs/models/errors/getterminalresponsebody.md
+  - docs/models/errors/links.md
+  - docs/models/errors/listallchargebackschargebacksapidocumentation.md
+  - docs/models/errors/listallchargebackschargebacksapilinks.md
+  - docs/models/errors/listallchargebackschargebacksapiresponsebody.md
+  - docs/models/errors/listallchargebacksdocumentation.md
+  - docs/models/errors/listallchargebackslinks.md
+  - docs/models/errors/listallchargebacksresponsebody.md
+  - docs/models/errors/listallmethodsdocumentation.md
+  - docs/models/errors/listallmethodslinks.md
+  - docs/models/errors/listallmethodsresponsebody.md
+  - docs/models/errors/listallrefundsdocumentation.md
+  - docs/models/errors/listallrefundslinks.md
+  - docs/models/errors/listallrefundsresponsebody.md
+  - docs/models/errors/listcapturescapturesapidocumentation.md
+  - docs/models/errors/listcapturescapturesapilinks.md
+  - docs/models/errors/listcapturescapturesapiresponsebody.md
+  - docs/models/errors/listcapturesdocumentation.md
+  - docs/models/errors/listcaptureslinks.md
+  - docs/models/errors/listcapturesresponsebody.md
+  - docs/models/errors/listchargebackschargebacksapidocumentation.md
+  - docs/models/errors/listchargebackschargebacksapilinks.md
+  - docs/models/errors/listchargebackschargebacksapiresponsebody.md
+  - docs/models/errors/listchargebacksdocumentation.md
+  - docs/models/errors/listchargebackslinks.md
+  - docs/models/errors/listchargebacksresponsebody.md
+  - docs/models/errors/listmethodsdocumentation.md
+  - docs/models/errors/listmethodslinks.md
+  - docs/models/errors/listmethodsresponsebody.md
+  - docs/models/errors/listorderrefundsdocumentation.md
+  - docs/models/errors/listorderrefundslinks.md
+  - docs/models/errors/listorderrefundsresponsebody.md
+  - docs/models/errors/listpaymentlinksdocumentation.md
+  - docs/models/errors/listpaymentlinkslinks.md
+  - docs/models/errors/listpaymentlinksresponsebody.md
+  - docs/models/errors/listpaymentsdocumentation.md
+  - docs/models/errors/listpaymentslinks.md
+  - docs/models/errors/listpaymentsresponsebody.md
+  - docs/models/errors/listrefundsdocumentation.md
+  - docs/models/errors/listrefundslinks.md
+  - docs/models/errors/listrefundsrefundsapidocumentation.md
+  - docs/models/errors/listrefundsrefundsapilinks.md
+  - docs/models/errors/listrefundsrefundsapiresponsebody.md
+  - docs/models/errors/listrefundsresponsebody.md
+  - docs/models/errors/listterminalsdocumentation.md
+  - docs/models/errors/listterminalslinks.md
+  - docs/models/errors/listterminalsresponsebody.md
+  - docs/models/errors/requestapplepaypaymentsessiondocumentation.md
+  - docs/models/errors/requestapplepaypaymentsessionlinks.md
+  - docs/models/errors/requestapplepaypaymentsessionresponsebody.md
+  - docs/models/errors/updatepaymentdocumentation.md
+  - docs/models/errors/updatepaymentlinks.md
+  - docs/models/errors/updatepaymentpaymentsapidocumentation.md
+  - docs/models/errors/updatepaymentpaymentsapilinks.md
+  - docs/models/errors/updatepaymentpaymentsapiresponsebody.md
+  - docs/models/errors/updatepaymentresponsebody.md
+  - docs/models/operations/amount.md
+  - docs/models/operations/amountcaptured.md
+  - docs/models/operations/amountchargedback.md
+  - docs/models/operations/amountrefunded.md
+  - docs/models/operations/amountremaining.md
+  - docs/models/operations/applicationfee.md
+  - docs/models/operations/billingaddress.md
+  - docs/models/operations/cancelpaymentrequest.md
+  - docs/models/operations/cancelrefundrequest.md
+  - docs/models/operations/captures.md
+  - docs/models/operations/changepaymentstate.md
+  - docs/models/operations/chargebacks.md
+  - docs/models/operations/checkout.md
+  - docs/models/operations/contractor.md
+  - docs/models/operations/createcaptureamount.md
+  - docs/models/operations/createcapturerequest.md
+  - docs/models/operations/createcapturerequestbody.md
+  - docs/models/operations/createorderrefundamount.md
+  - docs/models/operations/createorderrefunddocumentation.md
+  - docs/models/operations/createorderrefundlines.md
+  - docs/models/operations/createorderrefundlinesoutput.md
+  - docs/models/operations/createorderrefundlinks.md
+  - docs/models/operations/createorderrefundorder.md
+  - docs/models/operations/createorderrefundrequest.md
+  - docs/models/operations/createorderrefundrequestbody.md
+  - docs/models/operations/createorderrefundresponsebody.md
+  - docs/models/operations/createorderrefundself.md
+  - docs/models/operations/createorderrefundsettlement.md
+  - docs/models/operations/createorderrefundtotalamount.md
+  - docs/models/operations/createorderrefundunitprice.md
+  - docs/models/operations/createpaymentamount.md
+  - docs/models/operations/createpaymentlinkamount.md
+  - docs/models/operations/createpaymentlinkrequestbody.md
+  - docs/models/operations/createpaymentpaymentsapiamount.md
+  - docs/models/operations/createpaymentrequest.md
+  - docs/models/operations/createpaymentrequestbody.md
+  - docs/models/operations/createrefundamount.md
+  - docs/models/operations/createrefundrequest.md
+  - docs/models/operations/createrefundrequestbody.md
+  - docs/models/operations/dashboard.md
+  - docs/models/operations/destination.md
+  - docs/models/operations/details.md
+  - docs/models/operations/disablemethodissuerrequest.md
+  - docs/models/operations/disablemethodrequest.md
+  - docs/models/operations/discountamount.md
+  - docs/models/operations/documentation.md
+  - docs/models/operations/embedded.md
+  - docs/models/operations/enablemethoddocumentation.md
+  - docs/models/operations/enablemethodfixed.md
+  - docs/models/operations/enablemethodimage.md
+  - docs/models/operations/enablemethodissuerdocumentation.md
+  - docs/models/operations/enablemethodissuerimage.md
+  - docs/models/operations/enablemethodissuerlinks.md
+  - docs/models/operations/enablemethodissuerrequest.md
+  - docs/models/operations/enablemethodissuerrequestbody.md
+  - docs/models/operations/enablemethodissuerresponsebody.md
+  - docs/models/operations/enablemethodissuers.md
+  - docs/models/operations/enablemethodissuerself.md
+  - docs/models/operations/enablemethodlinks.md
+  - docs/models/operations/enablemethodmaximumamount.md
+  - docs/models/operations/enablemethodmethodsapiimage.md
+  - docs/models/operations/enablemethodminimumamount.md
+  - docs/models/operations/enablemethodpricing.md
+  - docs/models/operations/enablemethodrequest.md
+  - docs/models/operations/enablemethodresponsebody.md
+  - docs/models/operations/enablemethodself.md
+  - docs/models/operations/fixed.md
+  - docs/models/operations/getcaptureamount.md
+  - docs/models/operations/getcapturedocumentation.md
+  - docs/models/operations/getcapturelinks.md
+  - docs/models/operations/getcapturepayment.md
+  - docs/models/operations/getcapturerequest.md
+  - docs/models/operations/getcaptureresponsebody.md
+  - docs/models/operations/getcaptureself.md
+  - docs/models/operations/getcapturesettlement.md
+  - docs/models/operations/getcapturesettlementamount.md
+  - docs/models/operations/getchargebackamount.md
+  - docs/models/operations/getchargebackdocumentation.md
+  - docs/models/operations/getchargebacklinks.md
+  - docs/models/operations/getchargebackpayment.md
+  - docs/models/operations/getchargebackrequest.md
+  - docs/models/operations/getchargebackresponsebody.md
+  - docs/models/operations/getchargebackself.md
+  - docs/models/operations/getchargebacksettlement.md
+  - docs/models/operations/getchargebacksettlementamount.md
+  - docs/models/operations/getmethoddocumentation.md
+  - docs/models/operations/getmethodimage.md
+  - docs/models/operations/getmethodlinks.md
+  - docs/models/operations/getmethodrequest.md
+  - docs/models/operations/getmethodresponsebody.md
+  - docs/models/operations/getmethodself.md
+  - docs/models/operations/getpaymentamount.md
+  - docs/models/operations/getpaymentapplicationfee.md
+  - docs/models/operations/getpaymentbillingaddress.md
+  - docs/models/operations/getpaymentdestination.md
+  - docs/models/operations/getpaymentdiscountamount.md
+  - docs/models/operations/getpaymentdocumentation.md
+  - docs/models/operations/getpaymentlines.md
+  - docs/models/operations/getpaymentlinkamount.md
+  - docs/models/operations/getpaymentlinkdocumentation.md
+  - docs/models/operations/getpaymentlinklinks.md
+  - docs/models/operations/getpaymentlinkrequest.md
+  - docs/models/operations/getpaymentlinkresponsebody.md
+  - docs/models/operations/getpaymentlinks.md
+  - docs/models/operations/getpaymentlinkself.md
+  - docs/models/operations/getpaymentpaymentsapiamount.md
+  - docs/models/operations/getpaymentpaymentsapiresponseamount.md
+  - docs/models/operations/getpaymentrequest.md
+  - docs/models/operations/getpaymentresponsebody.md
+  - docs/models/operations/getpaymentrouting.md
+  - docs/models/operations/getpaymentself.md
+  - docs/models/operations/getpaymentshippingaddress.md
+  - docs/models/operations/getpaymenttotalamount.md
+  - docs/models/operations/getpaymentunitprice.md
+  - docs/models/operations/getpaymentvatamount.md
+  - docs/models/operations/getrefundamount.md
+  - docs/models/operations/getrefunddocumentation.md
+  - docs/models/operations/getrefundlinks.md
+  - docs/models/operations/getrefundrequest.md
+  - docs/models/operations/getrefundresponsebody.md
+  - docs/models/operations/getrefundself.md
+  - docs/models/operations/getrefundsettlement.md
+  - docs/models/operations/getrefundsettlementamount.md
+  - docs/models/operations/getterminaldocumentation.md
+  - docs/models/operations/getterminallinks.md
+  - docs/models/operations/getterminalrequest.md
+  - docs/models/operations/getterminalresponsebody.md
+  - docs/models/operations/getterminalself.md
+  - docs/models/operations/image.md
+  - docs/models/operations/issuers.md
+  - docs/models/operations/lines.md
+  - docs/models/operations/links.md
+  - docs/models/operations/listallchargebacksdocumentation.md
+  - docs/models/operations/listallchargebacksembedded.md
+  - docs/models/operations/listallchargebackslinks.md
+  - docs/models/operations/listallchargebacksnext.md
+  - docs/models/operations/listallchargebacksprevious.md
+  - docs/models/operations/listallchargebacksrefunds.md
+  - docs/models/operations/listallchargebacksrequest.md
+  - docs/models/operations/listallchargebacksresponsebody.md
+  - docs/models/operations/listallchargebacksself.md
+  - docs/models/operations/listallmethodsdocumentation.md
+  - docs/models/operations/listallmethodsembedded.md
+  - docs/models/operations/listallmethodslinks.md
+  - docs/models/operations/listallmethodsmethods.md
+  - docs/models/operations/listallmethodsqueryparamamount.md
+  - docs/models/operations/listallmethodsrequest.md
+  - docs/models/operations/listallmethodsresponsebody.md
+  - docs/models/operations/listallmethodsself.md
+  - docs/models/operations/listallrefundsdocumentation.md
+  - docs/models/operations/listallrefundsembedded.md
+  - docs/models/operations/listallrefundslinks.md
+  - docs/models/operations/listallrefundsnext.md
+  - docs/models/operations/listallrefundsprevious.md
+  - docs/models/operations/listallrefundsrefunds.md
+  - docs/models/operations/listallrefundsrequest.md
+  - docs/models/operations/listallrefundsresponsebody.md
+  - docs/models/operations/listallrefundsself.md
+  - docs/models/operations/listcapturescaptures.md
+  - docs/models/operations/listcapturesdocumentation.md
+  - docs/models/operations/listcapturesembedded.md
+  - docs/models/operations/listcaptureslinks.md
+  - docs/models/operations/listcapturesnext.md
+  - docs/models/operations/listcapturesprevious.md
+  - docs/models/operations/listcapturesrequest.md
+  - docs/models/operations/listcapturesresponsebody.md
+  - docs/models/operations/listcapturesself.md
+  - docs/models/operations/listchargebacksdocumentation.md
+  - docs/models/operations/listchargebacksembedded.md
+  - docs/models/operations/listchargebackslinks.md
+  - docs/models/operations/listchargebacksnext.md
+  - docs/models/operations/listchargebacksprevious.md
+  - docs/models/operations/listchargebacksrefunds.md
+  - docs/models/operations/listchargebacksrequest.md
+  - docs/models/operations/listchargebacksresponsebody.md
+  - docs/models/operations/listchargebacksself.md
+  - docs/models/operations/listmethodsdocumentation.md
+  - docs/models/operations/listmethodsembedded.md
+  - docs/models/operations/listmethodslinks.md
+  - docs/models/operations/listmethodsrequest.md
+  - docs/models/operations/listmethodsresponsebody.md
+  - docs/models/operations/listmethodsself.md
+  - docs/models/operations/listorderrefundsdocumentation.md
+  - docs/models/operations/listorderrefundsembedded.md
+  - docs/models/operations/listorderrefundslinks.md
+  - docs/models/operations/listorderrefundsnext.md
+  - docs/models/operations/listorderrefundsprevious.md
+  - docs/models/operations/listorderrefundsrefunds.md
+  - docs/models/operations/listorderrefundsrequest.md
+  - docs/models/operations/listorderrefundsresponsebody.md
+  - docs/models/operations/listorderrefundsself.md
+  - docs/models/operations/listpaymentlinksdocumentation.md
+  - docs/models/operations/listpaymentlinksembedded.md
+  - docs/models/operations/listpaymentlinkslinks.md
+  - docs/models/operations/listpaymentlinksnext.md
+  - docs/models/operations/listpaymentlinksprevious.md
+  - docs/models/operations/listpaymentlinksrequest.md
+  - docs/models/operations/listpaymentlinksresponsebody.md
+  - docs/models/operations/listpaymentlinksself.md
+  - docs/models/operations/listpaymentsrequest.md
+  - docs/models/operations/listpaymentsresponsebody.md
+  - docs/models/operations/listrefundsdocumentation.md
+  - docs/models/operations/listrefundsembedded.md
+  - docs/models/operations/listrefundslinks.md
+  - docs/models/operations/listrefundsnext.md
+  - docs/models/operations/listrefundsprevious.md
+  - docs/models/operations/listrefundsrefunds.md
+  - docs/models/operations/listrefundsrequest.md
+  - docs/models/operations/listrefundsresponsebody.md
+  - docs/models/operations/listrefundsself.md
+  - docs/models/operations/listterminalsdocumentation.md
+  - docs/models/operations/listterminalsembedded.md
+  - docs/models/operations/listterminalslinks.md
+  - docs/models/operations/listterminalsnext.md
+  - docs/models/operations/listterminalsprevious.md
+  - docs/models/operations/listterminalsrequest.md
+  - docs/models/operations/listterminalsresponsebody.md
+  - docs/models/operations/listterminalsself.md
+  - docs/models/operations/maximumamount.md
+  - docs/models/operations/methods.md
+  - docs/models/operations/minimumamount.md
+  - docs/models/operations/mobileappcheckout.md
+  - docs/models/operations/next.md
+  - docs/models/operations/order.md
+  - docs/models/operations/payment.md
+  - docs/models/operations/paymentlink.md
+  - docs/models/operations/paymentlinks.md
+  - docs/models/operations/payments.md
+  - docs/models/operations/previous.md
+  - docs/models/operations/pricing.md
+  - docs/models/operations/queryparamamount.md
+  - docs/models/operations/reason.md
+  - docs/models/operations/refunds.md
+  - docs/models/operations/requestapplepaypaymentsessionrequestbody.md
+  - docs/models/operations/routing.md
+  - docs/models/operations/self.md
+  - docs/models/operations/settlement.md
+  - docs/models/operations/settlementamount.md
+  - docs/models/operations/shippingaddress.md
+  - docs/models/operations/terminal.md
+  - docs/models/operations/terminals.md
+  - docs/models/operations/totalamount.md
+  - docs/models/operations/unitprice.md
+  - docs/models/operations/updatepaymentrequest.md
+  - docs/models/operations/updatepaymentrequestbody.md
+  - docs/models/operations/vatamount.md
+  - docs/sdks/capturesapi/README.md
+  - docs/sdks/chargebacksapi/README.md
+  - docs/sdks/methodsapi/README.md
+  - docs/sdks/mollie/README.md
+  - docs/sdks/paymentlinksapi/README.md
+  - docs/sdks/paymentsapi/README.md
+  - docs/sdks/refundsapi/README.md
+  - docs/sdks/terminalsapi/README.md
+  - docs/sdks/walletsapi/README.md
+  - jsr.json
+  - package.json
+  - src/core.ts
+  - src/funcs/capturesAPICreateCapture.ts
+  - src/funcs/capturesAPIGetCapture.ts
+  - src/funcs/capturesAPIListCaptures.ts
+  - src/funcs/chargebacksAPIGetChargeback.ts
+  - src/funcs/chargebacksAPIListAllChargebacks.ts
+  - src/funcs/chargebacksAPIListChargebacks.ts
+  - src/funcs/methodsAPIDisableMethod.ts
+  - src/funcs/methodsAPIDisableMethodIssuer.ts
+  - src/funcs/methodsAPIEnableMethod.ts
+  - src/funcs/methodsAPIEnableMethodIssuer.ts
+  - src/funcs/methodsAPIGetMethod.ts
+  - src/funcs/methodsAPIListAllMethods.ts
+  - src/funcs/methodsAPIListMethods.ts
+  - src/funcs/paymentLinksAPICreatePaymentLink.ts
+  - src/funcs/paymentLinksAPIGetPaymentLink.ts
+  - src/funcs/paymentLinksAPIListPaymentLinks.ts
+  - src/funcs/paymentsAPICancelPayment.ts
+  - src/funcs/paymentsAPICreatePayment.ts
+  - src/funcs/paymentsAPIGetPayment.ts
+  - src/funcs/paymentsAPIListPayments.ts
+  - src/funcs/paymentsAPIUpdatePayment.ts
+  - src/funcs/refundsAPICancelRefund.ts
+  - src/funcs/refundsAPICreateOrderRefund.ts
+  - src/funcs/refundsAPICreateRefund.ts
+  - src/funcs/refundsAPIGetRefund.ts
+  - src/funcs/refundsAPIListAllRefunds.ts
+  - src/funcs/refundsAPIListOrderRefunds.ts
+  - src/funcs/refundsAPIListRefunds.ts
+  - src/funcs/terminalsAPIGetTerminal.ts
+  - src/funcs/terminalsAPIListTerminals.ts
+  - src/funcs/walletsAPIRequestApplePayPaymentSession.ts
+  - src/hooks/hooks.ts
+  - src/hooks/index.ts
+  - src/hooks/types.ts
+  - src/index.ts
+  - src/lib/base64.ts
+  - src/lib/config.ts
+  - src/lib/dlv.ts
+  - src/lib/encodings.ts
+  - src/lib/env.ts
+  - src/lib/files.ts
+  - src/lib/http.ts
+  - src/lib/is-plain-object.ts
+  - src/lib/logger.ts
+  - src/lib/matchers.ts
+  - src/lib/primitives.ts
+  - src/lib/retries.ts
+  - src/lib/schemas.ts
+  - src/lib/sdks.ts
+  - src/lib/security.ts
+  - src/lib/url.ts
+  - src/models/components/index.ts
+  - src/models/components/security.ts
+  - src/models/errors/cancelpayment.ts
+  - src/models/errors/cancelrefund.ts
+  - src/models/errors/createcapture.ts
+  - src/models/errors/createorderrefund.ts
+  - src/models/errors/createpayment.ts
+  - src/models/errors/createpaymentlink.ts
+  - src/models/errors/createrefund.ts
+  - src/models/errors/disablemethod.ts
+  - src/models/errors/disablemethodissuer.ts
+  - src/models/errors/enablemethod.ts
+  - src/models/errors/enablemethodissuer.ts
+  - src/models/errors/getcapture.ts
+  - src/models/errors/getchargeback.ts
+  - src/models/errors/getmethod.ts
+  - src/models/errors/getpayment.ts
+  - src/models/errors/getpaymentlink.ts
+  - src/models/errors/getrefund.ts
+  - src/models/errors/getterminal.ts
+  - src/models/errors/httpclienterrors.ts
+  - src/models/errors/index.ts
+  - src/models/errors/listallchargebacks.ts
+  - src/models/errors/listallmethods.ts
+  - src/models/errors/listallrefunds.ts
+  - src/models/errors/listcaptures.ts
+  - src/models/errors/listchargebacks.ts
+  - src/models/errors/listmethods.ts
+  - src/models/errors/listorderrefunds.ts
+  - src/models/errors/listpaymentlinks.ts
+  - src/models/errors/listpayments.ts
+  - src/models/errors/listrefunds.ts
+  - src/models/errors/listterminals.ts
+  - src/models/errors/requestapplepaypaymentsession.ts
+  - src/models/errors/sdkerror.ts
+  - src/models/errors/sdkvalidationerror.ts
+  - src/models/errors/updatepayment.ts
+  - src/models/operations/cancelpayment.ts
+  - src/models/operations/cancelrefund.ts
+  - src/models/operations/createcapture.ts
+  - src/models/operations/createorderrefund.ts
+  - src/models/operations/createpayment.ts
+  - src/models/operations/createpaymentlink.ts
+  - src/models/operations/createrefund.ts
+  - src/models/operations/disablemethod.ts
+  - src/models/operations/disablemethodissuer.ts
+  - src/models/operations/enablemethod.ts
+  - src/models/operations/enablemethodissuer.ts
+  - src/models/operations/getcapture.ts
+  - src/models/operations/getchargeback.ts
+  - src/models/operations/getmethod.ts
+  - src/models/operations/getpayment.ts
+  - src/models/operations/getpaymentlink.ts
+  - src/models/operations/getrefund.ts
+  - src/models/operations/getterminal.ts
+  - src/models/operations/index.ts
+  - src/models/operations/listallchargebacks.ts
+  - src/models/operations/listallmethods.ts
+  - src/models/operations/listallrefunds.ts
+  - src/models/operations/listcaptures.ts
+  - src/models/operations/listchargebacks.ts
+  - src/models/operations/listmethods.ts
+  - src/models/operations/listorderrefunds.ts
+  - src/models/operations/listpaymentlinks.ts
+  - src/models/operations/listpayments.ts
+  - src/models/operations/listrefunds.ts
+  - src/models/operations/listterminals.ts
+  - src/models/operations/requestapplepaypaymentsession.ts
+  - src/models/operations/updatepayment.ts
+  - src/sdk/capturesapi.ts
+  - src/sdk/chargebacksapi.ts
+  - src/sdk/index.ts
+  - src/sdk/methodsapi.ts
+  - src/sdk/paymentlinksapi.ts
+  - src/sdk/paymentsapi.ts
+  - src/sdk/refundsapi.ts
+  - src/sdk/sdk.ts
+  - src/sdk/terminalsapi.ts
+  - src/sdk/walletsapi.ts
+  - src/types/blobs.ts
+  - src/types/constdatetime.ts
+  - src/types/enums.ts
+  - src/types/fp.ts
+  - src/types/index.ts
+  - src/types/operations.ts
+  - src/types/rfcdate.ts
+  - src/types/streams.ts
+  - tsconfig.json
+examples:
+  create-payment:
+    "":
+      requestBody:
+        application/json: {"description": "youthfully abaft while hammock covenant so whine very modulo highly", "amount": {"currency": "EUR", "value": "10.00"}, "redirectUrl": "https://mean-deduction.com/", "lines": [], "applicationFee": {"amount": {"currency": "EUR", "value": "10.00"}}, "routing": [{"amount": {"currency": "EUR", "value": "10.00"}, "destination": {"organizationId": "org_12345678"}}, {"amount": {"currency": "EUR", "value": "10.00"}, "destination": {"organizationId": "org_12345678"}}, {"amount": {"currency": "EUR", "value": "10.00"}, "destination": {"organizationId": "org_12345678"}}], "mandateId": "mdt_pWUnw6pkBN", "customerId": "cst_8wmqcHMN4U", "profileId": "pfl_QkEhN94Ba"}
+      responses:
+        "422":
+          application/hal+json: {"status": 422, "title": "Unprocessable Entity", "detail": "The 'description' field is missing", "field": "description", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "503":
+          application/hal+json: {"status": 503, "title": "Service Unavailable", "detail": "Payment platform for this payment method temporarily not available", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-payments:
+    "":
+      responses:
+        "200":
+          application/hal+json: {"count": 5, "_embedded": {"payments": [{}, {}, {}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": {"href": "https://api.mollie.com/v2/payments?from=tr_SDkzMggpvx&limit=5", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  get-payment:
+    "":
+      parameters:
+        path:
+          id: "tr_7UhSN1zuXS"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"resource": "payment", "id": "tr_7UhSN1zuXS", "mode": "live", "description": "Order #12345", "amount": {"currency": "EUR", "value": "10.00"}, "amountRefunded": {"currency": "EUR", "value": "10.00"}, "amountRemaining": {"currency": "EUR", "value": "10.00"}, "amountCaptured": {"currency": "EUR", "value": "10.00"}, "amountChargedBack": {"currency": "EUR", "value": "10.00"}, "settlementAmount": {"currency": "EUR", "value": "10.00"}, "redirectUrl": "https://webshop.example.org/order/12345/", "webhookUrl": "https://webshop.example.org/payments/webhook/", "lines": [], "countryCode": "BE", "metadata": "{\"order_id\":12345}", "applicationFee": {"amount": {"currency": "EUR", "value": "10.00"}}, "routing": [{"amount": {"currency": "EUR", "value": "10.00"}, "destination": {"organizationId": "org_12345678"}}, {"amount": {"currency": "EUR", "value": "10.00"}, "destination": {"organizationId": "org_12345678"}}, {"amount": {"currency": "EUR", "value": "10.00"}, "destination": {"organizationId": "org_12345678"}}], "sequenceType": "oneoff", "mandateId": "mdt_pWUnw6pkBN", "customerId": "cst_8wmqcHMN4U", "profileId": "pfl_QkEhN94Ba", "settlementId": "stl_BkEjN2eBb", "status": "open", "isCancelable": false, "createdAt": "2024-03-20T09:13:37+00:00", "expiresAt": "2024-03-20T09:28:37+00:00", "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "checkout": {"href": "https://www.mollie.com/checkout/select-method/7UhSN1zuXS", "type": "text/html"}, "dashboard": {"href": "https://www.mollie.com/dashboard/org_12345678/payments/tr_7UhSN1zuXS", "type": "text/html"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  update-payment:
+    "":
+      parameters:
+        path:
+          id: "tr_7UhSN1zuXS"
+      responses:
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "422":
+          application/hal+json: {"status": 422, "title": "Unprocessable Entity", "detail": "The redirect URL cannot be updated when the payment is finalized", "field": "redirectUrl", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  cancel-payment:
+    "":
+      parameters:
+        path:
+          id: "tr_7UhSN1zuXS"
+        query: {}
+      responses:
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "422":
+          application/hal+json: {"status": 422, "title": "Unprocessable Entity", "detail": "The payment cannot be cancelled", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-methods:
+    "":
+      parameters:
+        query:
+          amount: {"currency": "EUR", "value": "10.00"}
+          profileId: "pfl_QkEhN94Ba"
+      responses:
+        "200":
+          application/hal+json: {"count": 4, "_embedded": {"methods": [{}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "The sequence type is invalid", "field": "sequenceType", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-all-methods:
+    "":
+      parameters:
+        query:
+          amount: {"currency": "EUR", "value": "10.00"}
+      responses:
+        "200":
+          application/hal+json: {"count": 4, "_embedded": {"methods": [{}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "The locale is invalid", "field": "locale", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  get-method:
+    "":
+      parameters:
+        path:
+          id: "ideal"
+        query:
+          profileId: "pfl_QkEhN94Ba"
+      responses:
+        "200":
+          application/hal+json: {"resource": "method", "id": "ideal", "description": "iDEAL", "minimumAmount": {"currency": "EUR", "value": "0.01"}, "maximumAmount": {"currency": "EUR", "value": "50000.00"}, "image": {"size1x": "https://mollie.com/external/icons/payment-methods/ideal.png", "size2x": "https://mollie.com/external/icons/payment-methods/ideal%402x.png", "svg": "https://mollie.com/external/icons/payment-methods/ideal.svg"}, "status": "activated", "pricing": [{"fixed": {"currency": "EUR", "value": "10.00"}}], "issuers": [{"id": "ideal_ABNANL2A", "name": "ING Bank"}], "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "The locale is invalid", "field": "locale", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  enable-method:
+    "":
+      parameters:
+        path:
+          profileId: "pfl_QkEhN94Ba"
+          id: "ideal"
+      responses:
+        "200":
+          application/hal+json: {"resource": "method", "id": "ideal", "description": "iDEAL", "minimumAmount": {"currency": "EUR", "value": "0.01"}, "maximumAmount": {"currency": "EUR", "value": "50000.00"}, "image": {"size1x": "https://mollie.com/external/icons/payment-methods/ideal.png", "size2x": "https://mollie.com/external/icons/payment-methods/ideal%402x.png", "svg": "https://mollie.com/external/icons/payment-methods/ideal.svg"}, "status": "activated", "pricing": [{"fixed": {"currency": "EUR", "value": "10.00"}}, {"fixed": {"currency": "EUR", "value": "10.00"}}], "issuers": [{"id": "ideal_ABNANL2A", "name": "ING Bank"}, {"id": "ideal_ABNANL2A", "name": "ING Bank"}], "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  disable-method:
+    "":
+      parameters:
+        path:
+          profileId: "pfl_QkEhN94Ba"
+          id: "ideal"
+      responses:
+        "204":
+          application/hal+json: {}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  enable-method-issuer:
+    "":
+      parameters:
+        path:
+          profileId: "pfl_QkEhN94Ba"
+          methodId: "voucher"
+          id: "edenred-france-sports"
+      responses:
+        "200":
+          application/hal+json: {"resource": "issuer", "id": "festivalcadeau", "description": "FestivalCadeau Giftcard", "status": "pending-issuer", "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  disable-method-issuer:
+    "":
+      parameters:
+        path:
+          profileId: "pfl_QkEhN94Ba"
+          methodId: "voucher"
+          id: "edenred-france-sports"
+      responses:
+        "204":
+          application/hal+json: {}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  create-refund:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+      requestBody:
+        application/json: {"amount": {"currency": "EUR", "value": "10.00"}}
+      responses:
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "409":
+          application/hal+json: {"status": 409, "title": "Conflict", "detail": "A duplicate refund has been detected", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "422":
+          application/hal+json: {"status": 422, "title": "Unprocessable Entity", "detail": "The 'amount' field is missing", "field": "amount", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-refunds:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"count": 5, "_embedded": {"refunds": [{}, {}, {}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS/refunds?from=re_APBiGPH2vV&limit=5", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  get-refund:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+          id: "re_4qqhO89gsT"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"resource": "refund", "id": "re_4qqhO89gsT", "description": "Order", "amount": {"currency": "EUR", "value": "5.95"}, "settlementAmount": {"currency": "EUR", "value": "10.00"}, "metadata": "{\"bookkeeping_id\":12345}", "paymentId": "tr_7UhSN1zuXS", "status": "pending", "createdAt": "2023-03-14T17:09:02.0Z", "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "payment": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  cancel-refund:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+          id: "re_4qqhO89gsT"
+        query: {}
+      responses:
+        "204":
+          application/hal+json: {}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  create-order-refund:
+    "":
+      parameters:
+        path:
+          orderId: "ord_pbjz8x"
+      requestBody:
+        application/json: {"lines": [{"amount": {"currency": "EUR", "value": "10.00"}}]}
+      responses:
+        "201":
+          application/hal+json: {"resource": "refund", "id": "re_4qqhO89gsT", "description": "Required quantity not in stock, refunding one photo book.", "lines": [{"resource": "orderline", "id": "odl_dgtxyl", "orderId": "ord_stTC2WHAuS", "quantity": 1, "unitPrice": {"currency": "EUR", "value": "9.95"}, "totalAmount": {"currency": "EUR", "value": "9.95"}}], "metadata": "{\"bookkeeping_id\":12345}", "orderId": "ord_stTC2WHAuS", "status": "pending", "createdAt": "2023-03-14T17:09:02.0Z", "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "order": {"href": "https://api.mollie.com/v2/orders/ord_stTC2WHAuS", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "422":
+          application/hal+json: {"status": 422, "title": "Unprocessable Entity", "detail": "The 'amount' field is missing", "field": "amount", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-order-refunds:
+    "":
+      parameters:
+        path:
+          orderId: "ord_pbjz8x"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"count": 5, "_embedded": {"refunds": [{}, {}, {}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS/refunds?from=re_APBiGPH2vV&limit=5", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-all-refunds:
+    "":
+      parameters:
+        query:
+          profileId: "pfl_QkEhN94Ba"
+      responses:
+        "200":
+          application/hal+json: {"count": 5, "_embedded": {"refunds": [{}, {}, {}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS/refunds?from=re_APBiGPH2vV&limit=5", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-chargebacks:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"count": 5, "_embedded": {"refunds": [{}, {}, {}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS/chargebacks?from=chb_8gj14x&limit=5", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  get-chargeback:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+          id: "chb_n9z0tp"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"resource": "chargeback", "id": "chb_n9z0tp", "amount": {"currency": "USD", "value": "43.38"}, "settlementAmount": {"currency": "EUR", "value": "-35.07"}, "reason": {"code": "AC01", "description": "Account identifier incorrect (i.e. invalid IBAN)"}, "paymentId": "tr_7UhSN1zuXS", "createdAt": "2023-03-14T17:09:02.0Z", "reversedAt": null, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "payment": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-all-chargebacks:
+    "":
+      parameters:
+        query:
+          profileId: "pfl_QkEhN94Ba"
+      responses:
+        "200":
+          application/hal+json: {"count": 5, "_embedded": {"refunds": [{}, {}, {}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS/chargebacks?from=chb_8gj14x&limit=5", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  create-capture:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+      requestBody:
+        application/json: {"amount": {"currency": "EUR", "value": "10.00"}}
+      responses:
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "422":
+          application/hal+json: {"status": 422, "title": "Unprocessable Entity", "detail": "The amount contains an invalid currency", "field": "amount.currency", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-captures:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"count": 5, "_embedded": {"captures": [{}, {}, {}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS/captures?from=cpt_Sy3NzD2TYuQtUaxNyu8aH&limit=5", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  get-capture:
+    "":
+      parameters:
+        path:
+          paymentId: "tr_7UhSN1zuXS"
+          id: "cpt_mNepDkEtco6ah3QNPUGYH"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"resource": "capture", "id": "cpt_mNepDkEtco6ah3QNPUGYH", "mode": "live", "description": "Capture for cart #12345", "amount": {"currency": "EUR", "value": "35.95"}, "settlementAmount": {"currency": "EUR", "value": "10.00"}, "metadata": "{\"bookkeeping_id\":12345}", "paymentId": "tr_7UhSN1zuXS", "createdAt": "2023-08-02T09:29:56+00:00", "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "payment": {"href": "https://api.mollie.com/v2/payments/tr_7UhSN1zuXS", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  request-apple-pay-payment-session:
+    "":
+      requestBody:
+        application/json: {"validationUrl": "https://dark-suv.org", "domain": "cheap-contractor.info", "profileId": "pfl_QkEhN94Ba"}
+      responses:
+        "422":
+          application/hal+json: {"status": 422, "title": "Unprocessable Entity", "detail": "Apple is not able to verify your domain", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  create-payment-link:
+    "":
+      requestBody:
+        application/json: {"amount": {"currency": "EUR", "value": "10.00"}, "profileId": "pfl_QkEhN94Ba"}
+      responses:
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+        "422":
+          application/hal+json: {"status": 422, "title": "Unprocessable Entity", "detail": "The description is missing", "field": "description", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-payment-links:
+    "":
+      responses:
+        "200":
+          application/hal+json: {"count": 5, "_embedded": {"payment_links": [{}, {}, {}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": {"href": "https://api.mollie.com/v2/payment-links?from=pl_ayGNzD4TYuQtUaxNyu8aH&limit=5", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  get-payment-link:
+    "":
+      parameters:
+        path:
+          id: "pl_4Y0eZitmBnQ6IDoMqZQKh"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"resource": "payment-link", "id": "pl_4Y0eZitmBnQ6IDoMqZQKh", "mode": "live", "description": "Bicycle tires", "amount": {"currency": "EUR", "value": "24.95"}, "archived": false, "redirectUrl": "https://webshop.example.org/thanks", "webhookUrl": "https://webshop.example.org/payment-links/webhook", "paymentId": "tr_7UhSN1zuXS", "profileId": "pfl_QkEhN94Ba", "createdAt": "2021-03-20T09:29:56+00:00", "expiresAt": "2023-06-06T11:00:00+00:00", "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "paymentLink": {"href": "https://paymentlink.mollie.com/payment/4Y0eZitmBnQ6IDoMqZQKh", "type": "text/html"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  list-terminals:
+    "":
+      responses:
+        "200":
+          application/hal+json: {"count": 3, "_embedded": {"terminals": [{}, {}]}, "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "previous": null, "next": null, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "400":
+          application/hal+json: {"status": 400, "title": "Bad Request", "detail": "Invalid cursor value", "field": "from", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
+  get-terminal:
+    "":
+      parameters:
+        path:
+          id: "term_7MgL4wea46qkRcoTZjWEH"
+        query: {}
+      responses:
+        "200":
+          application/hal+json: {"resource": "terminal", "id": "term_7MgL4wea46qkRcoTZjWEH", "description": "Terminal #12345", "status": "active", "brand": "PAX", "model": "A920", "serialNumber": "1234567890", "currency": "EUR", "profileId": "pfl_QkEhN94Ba", "createdAt": "2022-02-12T11:58:35+00:00", "_links": {"self": {"href": "<value>", "type": "application/hal+json"}, "documentation": {"href": "<value>", "type": "text/html"}}}
+        "404":
+          application/hal+json: {"status": 404, "title": "Not Found", "detail": "No entity exists with token '7UhSN1zuXS'", "_links": {"documentation": {"href": "https://docs.mollie.com/errors", "type": "text/html"}}}
